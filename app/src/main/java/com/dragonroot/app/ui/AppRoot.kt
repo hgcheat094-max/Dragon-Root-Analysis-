@@ -62,7 +62,7 @@ enum class Destination(val route: String, val label: String, val icon: ImageVect
         fun fromRoute(route: String?): Destination = entries.firstOrNull { it.route == route } ?: Dashboard
     }
 }
-
+@OptIn(ExperimentalMaterialApi::class)
 @Composable
 fun DragonRootRoot(container: AppContainer) {
     val vm: MainViewModel = viewModel(factory = viewModelFactory { initializer { MainViewModel(container) } })
