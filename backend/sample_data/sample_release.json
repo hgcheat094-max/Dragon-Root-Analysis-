@@ -1,0 +1,24 @@
+{
+  "version": 0,
+  "isSample": true,
+  "createdAt": "2026-01-01",
+  "source": "SAMPLE DATA bundled with debug builds — NOT REAL, NOT VERIFIED",
+  "changelog": "Fictional records used only to demonstrate the screens. None of these identifiers exist.",
+  "devices": [
+    {"id": "sample-device-1", "manufacturer": "IQOO", "marketingName": "SAMPLE iQOO Phone (fictional)", "modelNumber": "SAMPLE-I0001", "codename": "sample_codename_1", "region": "SAMPLE-REGION", "chipset": "SAMPLE chipset", "supportUrl": "https://example.com/sample-support", "lastVerified": "2026-01-01"},
+    {"id": "sample-device-2", "manufacturer": "VIVO", "marketingName": "SAMPLE vivo Phone (fictional)", "modelNumber": "SAMPLE-V0001", "region": "SAMPLE-REGION"}
+  ],
+  "firmware": [
+    {"id": "sample-fw-1", "manufacturer": "IQOO", "deviceModel": "SAMPLE iQOO Phone (fictional)", "modelNumber": "SAMPLE-I0001", "region": "SAMPLE-REGION", "buildNumber": "SAMPLE_BUILD_1.0", "androidVersion": "0", "vendorOs": "SAMPLE OS", "securityPatch": "2026-01-01", "releaseDate": "2026-01-01", "kernelVersion": "0.0.0-sample", "releaseNotes": "Sample release notes.", "sourceType": "Sample", "official": true, "sourceGrade": "D", "verification": "UNVERIFIED", "lastChecked": "2026-01-01"},
+    {"id": "sample-fw-2", "manufacturer": "IQOO", "deviceModel": "SAMPLE iQOO Phone (fictional)", "modelNumber": "SAMPLE-I0001", "region": "SAMPLE-REGION", "buildNumber": "SAMPLE_BUILD_2.0", "androidVersion": "0", "vendorOs": "SAMPLE OS", "securityPatch": "2026-02-01", "releaseDate": "2026-02-01", "kernelVersion": "0.0.1-sample", "sourceType": "Sample", "official": true, "sourceGrade": "D", "verification": "NEEDS_REVIEW", "lastChecked": "2026-02-01"}
+  ],
+  "kernelProfiles": [
+    {"id": "sample-kernel-1", "deviceModel": "SAMPLE iQOO Phone (fictional)", "buildNumber": "SAMPLE_BUILD_1.0", "kernelRelease": "0.0.0-sample", "source": "Sample", "sourceGrade": "D", "lastChecked": "2026-01-01"}
+  ],
+  "advisories": [
+    {"id": "sample-adv-1", "title": "SAMPLE advisory (fictional)", "affectedComponent": "sample-component", "publishedDate": "2026-01-01", "url": "https://example.com/sample-advisory", "sourceGrade": "D"}
+  ],
+  "evidence": [
+    {"id": "sample-ev-1", "title": "SAMPLE evidence (fictional)", "url": "https://example.com/sample-evidence", "grade": "D", "sourceDate": "2026-01-01", "lastReviewed": "2026-01-01"}
+  ]
+}
