@@ -45,6 +45,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.dragonroot.app.AppContainer
 import kotlinx.coroutines.launch
+import androidx.compose.material.ExperimentalMaterialApi
 
 enum class Destination(val route: String, val label: String, val icon: ImageVector) {
     Dashboard("dashboard", "Dashboard", Icons.Default.Dashboard),
